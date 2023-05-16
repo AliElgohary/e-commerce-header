@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+  }
+  nav{
+    background-color: grey;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: orange;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .cate{
+    padding-right: 150px;
+    text-align: left;
+    background-color: orange;
+  }
+.lastIcon{
+    float: right;
+}
