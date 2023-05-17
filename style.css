@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: #eeeeee;
 }
 
 ul {
@@ -8,10 +9,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: grey;
+    background-color: #3d464d;
   }
   nav{
-    background-color: grey;
+    background-color: #3d464d;
   }
   
   li {
@@ -24,24 +25,28 @@ ul {
   
   li a {
     display: block;
-    color: black;
+    color: #eeeeee;
     text-align: center;
     padding: 15px 17px;
     text-decoration: none;
   }
   
   li a:hover:not(.active) {
-    background-color: rgb(238, 191, 103);
+    color: #f9d238;
   }
 
   .cate{
     padding-right: 150px;
     text-align: left;
-    background-color: orange;
+    background-color: #f9d238;
+    color: black;
   }
 .lastIcon{
     float: right;
 }
 .cartIcons{
-  color: orange;
+  color: #eeeeee;
+}
+.FirstEle{
+  color: #67520a;
 }
